@@ -25,9 +25,81 @@ body {
 .timer {
   font-size: 50px;
   border: 1px solid #fff;
-  padding: 10px;
+  padding: 20px 10px;
+  border-radius: 50%;
 }
+
 .btn {
   margin-top: 20px;
   padding: 10px;
+}
+
+/*---------------------------------*/
+.tomagotchi {
+  width: 300px;
+  height: 200px;
+
+  margin-top: 20px;
+}
+.box_tomagotchi {
+  width: 300px;
+  height: 160px;
+  border: 1px solid black;
+}
+.box_HUD {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.box_life {
+  display: flex;
+  color: black;
+}
+.text_life {
+  margin-top: 5px;
+  margin-left: 5px;
+}
+.life {
+  width: 10px;
+  height: 10px;
+  border: 1px solid black;
+  margin-top: 10px;
+  margin-left: 5px;
+}
+.box_happiness {
+  color: black;
+  display: flex;
+  align-items: center;
+}
+.happy {
+  margin-top: 5px;
+  margin-right: 5px;
+}
+.happiness {
+  width: 50px;
+  height: 10px;
+  margin-top: 5px;
+  margin-right: 5px;
+  border: 1px solid black;
+}
+.color_Happiness {
+  width: 100%;
+  height: 100%;
+  background-color: red;
+}
+.box_creature {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.text_creatures {
+  color: black;
+  font-size: 30px;
+}
+.btn_eat {
+  margin-top: 10px;
+}
+.eat {
+  padding: 10px 20px;
 }

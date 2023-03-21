@@ -9,7 +9,13 @@
   </head>
   <body>
     <div class="box_pomodoro">
-      <div class="box_choix"></div>
+      <div class="box_choix">
+        <select id="select">
+          <option value="5">5 minute</option>
+          <option value="25">25 minute</option>
+          <option value="50">50 minute</option>
+        </select>
+      </div>
       <div class="box_timer">
         <p class="timer">
           <span class="minute" id="minute"></span>.<span
@@ -17,6 +23,9 @@
             id="seconde"
           ></span>
         </p>
+      </div>
+      <div class="box_time_graph">
+        <div class="color_time" id="color_time"></div>
       </div>
     </div>
     <div class="box_btn">
